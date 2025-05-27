@@ -1,48 +1,47 @@
-<h1 align="center">Number Crush Game (x86-Assembly & Irvine)</h1>
-<hr>
-<p>This is a simple game created in Assembly language using the Irvine library. The game is similar to Candy Crush and consists of three levels, each with increasing difficulty.</p>
+# 🧩 Number Crush Game
+Este es un juego sencillo creado en lenguaje ensamblador (Assembly) utilizando la biblioteca **Irvine**.  
+El juego está inspirado en **Candy Crush** y cuenta con **tres niveles**, cada uno con una dificultad creciente.
+
+---
+
+## 📋 Requisitos
+
+- Biblioteca **Irvine** para programación en Assembly
+- Procesador **x86** con arquitectura compatible  
+- Sistema operativo **Windows** 
+- **Visual Studio** u otro IDE compatible con Assembly
 
 
-<h2>Requirements</h2>
-<hr>
-<li>Irvine library for Assembly language programming.
-<li>You can watch this how to setup Irvine in Visual Studio https://youtu.be/4XH_iEehGZ0</li>
-</li>
-<li>x86 architecture processor with Windows operating system.</li>
+---
 
+## ✨ Características
 
-<h2>How To Run?</h2>
-<hr>
-<ol>
-<li>Clone the repository to your local machine using 'git clone'.</li>
-<li>In terminal Navigate to the directory where the repository is cloned.</li>
-<li>Create a new Assmbly Project in your IDE.</li>
-<li>Create a asm file</li>
-<li>Add Code to the asm file and run the project</li>
-</ol>
+- 🎯 **Tres niveles** con dificultad progresiva
+- 🎨 **Efectos animados** para intercambio y desaparición de números
+- 🏆 **Sistema de puntuaciones altas** 
+- 💾 **Manejo de archivos** para guardar datos del juego
+- 💣 **Bombas especiales** que explotan múltiples números
 
+---
 
-<h2>Features</h2>
-<hr>
-<ul>
-<li>Three levels of increasing difficulty.</li>
-<li>Animated number swapping and disappearing effects.</li>
-<li>High score tracking.</li>
-<li>File Handling</li>
-</ul>
+## 🎲 Cómo jugar
 
+**Objetivo:** Emparejar tres o más números adyacentes del mismo valor intercambiando números vecinos.
 
-<h2>Game Play</h2>
-<hr>
-<p>The goal of the game is to match three or more adjacent numbers of the same value by swapping adjacent numbers. The matched numbers will disappear, 
-and new numbers will fall from the top to fill the empty spaces. You can swap a number with bomb which will explodes all bombs in board. If there is no move 
-possible board will automatically randomized. The game ends player reaches number of moves and move to next level if reaches the required scores.</p>
+**Mecánicas:**
+- 🔄 Selecciona dos números adyacentes para intercambiarlos
+- 💥 Los números emparejados desaparecen automáticamente  
+- ⬇️ Nuevos números caen desde arriba para llenar espacios vacíos
+- 💣 Intercambia números con bombas para explotar elementos similares
+- 🎲 El tablero se reorganiza automáticamente si no hay movimientos posibles
 
+**Para ganar:**
+- 🎯 Alcanza la puntuación requerida para avanzar al siguiente nivel
+- ⏰ Completa los objetivos dentro del límite de movimientos
 
-<h2>Screenshots</h2>
-<hr>
+---
 
-![Coal-1](https://user-images.githubusercontent.com/96474143/236566324-de0a7be6-4049-4580-a57e-4284f843fa97.png)
+## 📸 Capturas de Pantalla
 
 ![Coal-2](https://user-images.githubusercontent.com/96474143/236566346-67afb283-3f6e-4288-8a10-7a08d0b900b9.png)
 
@@ -50,3 +49,13 @@ possible board will automatically randomized. The game ends player reaches numbe
 
 ![Coal-4](https://user-images.githubusercontent.com/96474143/236566370-ac6e478f-4e1d-4d10-be4b-8db38bdf07ca.png)
 
+---
+
+
+<div align="center">
+
+**¡Disfruta jugando Number Crush! 🎮**
+
+*Si te gusta el proyecto, ¡dale una ⭐ en GitHub!*
+
+</div>
